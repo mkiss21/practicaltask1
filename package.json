@@ -1,0 +1,21 @@
+{
+  "name": "practicaltask1",
+  "version": "1.0.0",
+  "description": "QA automation practical tasks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkiss21/practicaltask1.git"
+  },
+  "keywords": [],
+  "author": "Melinda Kiss",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mkiss21/practicaltask1/issues"
+  },
+  "homepage": "https://github.com/mkiss21/practicaltask1#readme"
+}
