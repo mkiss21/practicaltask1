@@ -6,7 +6,8 @@
   "scripts": {
     "test": "mocha",
     "coverage": "c8 npm test",
-    "lint": "eslint ./ --fix"
+    "lint": "eslint ./ --fix",
+    "wdio": "wdio run ./wdio.conf.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,10 @@
   },
   "homepage": "https://github.com/mkiss21/practicaltask1#readme",
   "devDependencies": {
+    "@wdio/cli": "^10.2.0",
+    "@wdio/local-runner": "^10.2.0",
+    "@wdio/mocha-framework": "^10.2.0",
+    "@wdio/spec-reporter": "^10.2.0",
     "c8": "^12.0.0",
     "chai": "^6.3.0",
     "eslint": "^8.57.1",
